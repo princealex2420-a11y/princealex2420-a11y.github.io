@@ -5,8 +5,8 @@
 Saya siswa dari SMA Prestasi Prima yang sekarang berada di jenjang kelas 10 dan umur saya 15 tahun, saya tinggal di Depok dan saya lahir di Jakarta pada tanggal 24 November 2010. Cita cita saya adalah saya ingin menjadi engineer bangsa Indonesia yang dapat pekerjaan di luar negeri.  
 ## 🛠 Skill and Hobbies
 - Basketball
-- React
-- Git & GitHub
+- Mildly fast
+- Good Gamer
 
 ## 📂 Project
 - [Todo App](https://github.com/andi/todo-app)
