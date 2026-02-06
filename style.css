@@ -1,65 +1,104 @@
 * {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 body {
-  background: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
+  background: #0f172a;
+  color: #e5e7eb;
 }
 
-header {
-  background: #111;
-  color: #fff;
-  padding: 60px 20px;
-  text-align: center;
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #020617;
+  position: sticky;
+  top: 0;
 }
 
-header span {
-  color: #00adb5;
+nav h2 {
+  color: #38bdf8;
 }
 
-section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-h2 {
-  margin-bottom: 15px;
-}
-
-ul {
+nav ul {
+  display: flex;
   list-style: none;
 }
 
-ul li {
-  background: #ddd;
-  display: inline-block;
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-.project {
-  background: #fff;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-
-.project a {
+nav ul li a {
+  color: #e5e7eb;
+  margin-left: 20px;
   text-decoration: none;
-  color: #00adb5;
+}
+
+nav ul li a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 5px;
   font-weight: bold;
 }
 
+/* SECTION */
+section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background: #020617;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+/* PROJECT */
+.project-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card a {
+  color: #38bdf8;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
-  background: #111;
-  color: #fff;
+  background: #020617;
+  margin-top: 40px;
 }
